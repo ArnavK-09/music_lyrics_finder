@@ -24,7 +24,7 @@ const COPILOTKIT = new CopilotRuntime();
  */
 const ADAPTER = new GroqAdapter({
   groq: GROQ as any,
-  model: "llama-3.2-90b-text-preview",
+  model: "llama3-groq-8b-8192-tool-use-preview",
 });
 
 /**

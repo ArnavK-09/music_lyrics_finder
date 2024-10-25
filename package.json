@@ -1,5 +1,5 @@
 {
-  "name": "music_lyric_finder",
+  "name": "music_lyrics_finder",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -36,6 +36,7 @@
     "eslint": "^8",
     "eslint-config-next": "15.0.1",
     "postcss": "^8",
+    "prettier": "^3.3.3",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

@@ -4,7 +4,6 @@
 import type { Metadata } from "next";
 import { Poppins as GFONT } from "next/font/google";
 import "./globals.css";
-import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
 import { CopilotKitCSSProperties } from "@copilotkit/react-ui";
 import "@copilotkit/react-ui/styles.css";
 import { CopilotKit } from "@copilotkit/react-core";
@@ -69,19 +68,11 @@ export default function RootLayout({
                 "hsl(var(--destructive))",
             } as CopilotKitCSSProperties
           }
-          className={`${FONT.className} bg-background text-foreground antialiased w-screen !overflow-x-hidden`}
+          className={`${FONT.className} min-h-screen grid place-items-center bg-background text-foreground antialiased w-screen !overflow-x-hidden`}
         >
-          <header className="p-4">
-            <Menubar>
-              <MenubarMenu>
-                <MenubarTrigger className="font-bold tracking-tight text-center">
-                  Music Lyrics Finder Powered By A.I.
-                </MenubarTrigger>
-              </MenubarMenu>
-            </Menubar>
-          </header>
-          <main className="py-10"> {children}</main>
-          <footer>
+          <main className="py-16">
+            {" "}
+            {children}
             <AlertDialog>
               <AlertDialogContent>
                 <AlertDialogHeader>
@@ -95,7 +86,7 @@ export default function RootLayout({
                 </AlertDialogFooter>
               </AlertDialogContent>
             </AlertDialog>
-          </footer>
+          </main>
         </body>
       </html>
     </CopilotKit>
