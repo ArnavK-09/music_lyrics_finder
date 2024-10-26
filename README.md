@@ -23,8 +23,11 @@ Check out the live demo of the Music Lyrics Finder by visiting **https://music-l
 
 # 🎏 Demo
 
-![image](https://github.com/user-attachments/assets/5f6b9668-6b3f-48a1-bf72-91a9e6810e49)
+![screenshot](https://github.com/user-attachments/assets/5f6b9668-6b3f-48a1-bf72-91a9e6810e49)
 
+
+
+https://github.com/user-attachments/assets/a3079dae-a53c-475c-9451-9841cb48bd6c
 
 
 ---
