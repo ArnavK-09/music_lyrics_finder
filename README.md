@@ -1,5 +1,5 @@
 <h1 align="center">🎵  Music Lyrics Finder 🎵</h1>
-<h2 align="center">Powered By Ai</h2>
+<h2 align="center">Powered By A.I.</h2>
 
 <p align="center">
     <img alt="hero" width="450" src="https://fav.farm/%F0%9F%8E%B5" />
