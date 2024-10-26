@@ -38,6 +38,7 @@
 .border {
   @apply border-border;
 }
+
 .copilotKitInput > .copilotKitInputControls > button:not([disabled]) {
   color: hsl(var(--primary)) !important;
 }

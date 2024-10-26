@@ -1,7 +1,7 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
+  "ignorePatterns": ["components/ui/"],
   "rules": {
     "@typescript-eslint/no-explicit-any": "off"
-  },
-  "ignorePatterns": ["components/ui/"]
+  }
 }

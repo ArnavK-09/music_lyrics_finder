@@ -2,6 +2,7 @@
   "name": "music_lyrics_finder",
   "version": "0.1.0",
   "private": true,
+  "author": "ArnavK-09 <arnavkaushal09@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
