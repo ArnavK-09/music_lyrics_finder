@@ -20,6 +20,21 @@ export default function Home() {
   );
 
   /**
+   * Mimic Esc Button
+   */
+  const triggerEscapePress = () => {
+    try {
+      const escEvent = new KeyboardEvent("keydown", {
+        key: "Escape",
+        code: "Escape",
+        keyCode: 27,
+        which: 27,
+      });
+      document.dispatchEvent(escEvent);
+    } catch {}
+  };
+
+  /**
    * Copilotkit stuff
    */
   useCopilotReadable({
@@ -69,7 +84,8 @@ export default function Home() {
           const data = await res.json();
           setMusicLyrics(data[0].plainLyrics);
           setMusicTitle(data[0].trackName ?? song_name);
-          return 'Retrieving lyrics for you—please watch the web UI for updates.'
+          triggerEscapePress();
+          return "Retrieving lyrics for you—please watch the web UI for updates.";
         } catch (e) {
           console.error(e);
           setMusicTitle("An internal error has occurred.");
