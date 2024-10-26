@@ -15,13 +15,17 @@
 
 # ✨ Live Demo
 
-- **https://music_lyrics_finder.vercel.app/**
+- **https://music-lyrics-finder.vercel.app/**
 
-Check out the live demo of the Music Lyrics Finder by visiting **https://music_lyrics_finder.vercel.app/**. Explore song lyrics instantly by entering a song title and artist!
+Check out the live demo of the Music Lyrics Finder by visiting **https://music-lyrics-finder.vercel.app/**. Explore song lyrics instantly by entering a song title and artist!
 
 ---
 
 # 🎏 Demo
+
+![image](https://github.com/user-attachments/assets/5f6b9668-6b3f-48a1-bf72-91a9e6810e49)
+
+
 
 ---
 
